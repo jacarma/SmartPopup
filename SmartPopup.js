@@ -1,5 +1,5 @@
 /**
 Warning:
 -------
-    * Renamed as: "SmartPopup-Id.js"
+    * Renamed as: "http://jorix.github.com/SmartPopup/SmartPopup-Id.js"
 */
