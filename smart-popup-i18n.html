@@ -17,17 +17,20 @@
         </style>
 
         <script src="http://openlayers.org/dev/OpenLayers.js"></script>
-        <script src="SmartPopup-ml.js"></script>
+        <script src="http://openlayers.org/dev/lib/OpenLayers/Lang/es.js"></script>
+        <script src="http://openlayers.org/dev/lib/OpenLayers/Lang/ca.js"></script>
+        <script src="SmartPopup-i18n.js"></script>
+        <script src="templates/langs.js"></script>
         <script>
 // initialize map when page ready
 var map;
 var init = function () {
     var sphericalMercatorProj = new OpenLayers.Projection("EPSG:900913");
-    var geographicProj = new OpenLayers.Projection("EPSG:4326");    
+    var geographicProj = new OpenLayers.Projection("EPSG:4326");
 
     // Vector layers
     var sprintersLayer = new OpenLayers.Layer.Vector("Sprinters", {
-        selectTemplateURI: "templates/sprintCode.html",
+        selectTemplateURI: "templates/sprintCode-i18n.html",
         styleMap: new OpenLayers.StyleMap({
             externalGraphic: "http://openlayers.org/dev/examples/img/mobile-loc.png",
             graphicOpacity: 1.0,
