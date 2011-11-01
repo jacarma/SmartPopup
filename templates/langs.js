@@ -1,4 +1,4 @@
-OpenLayers.Util.extend(OpenLayers.Lang.en, {
+﻿OpenLayers.Util.extend(OpenLayers.Lang.en, {
     // Dummy translation ;-)
     "Name": "Name-i18n",
     "Country": "Country-i18n",
@@ -7,7 +7,7 @@ OpenLayers.Util.extend(OpenLayers.Lang.en, {
 
 OpenLayers.Util.extend(OpenLayers.Lang.es, {
     "Name": "Nombre",
-    "Country": "Pa�s",
+    "Country": "País",
     "City": "Ciudad"
 });
 
